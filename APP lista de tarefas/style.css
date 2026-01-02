@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Uma fonte mais moderna */
+}
+
+body {
+    /* Degradê moderno no fundo */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-principal {
+    background: rgba(255, 255, 255, 0.95);
+    width: 90%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: -1px;
+}
+
+/* Estilização da entrada de dados */
+.input-group {
+    display: flex;
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+button#addBtn {
+    background-color: #2ecc71; /* Verde esmeralda */
+    color: white;
+    border: none;
+    padding: 0 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button#addBtn:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+/* Estilo da Lista */
+li {
+    background: white;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 6px solid #667eea; /* Detalhe colorido na borda */
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Estilo para quando a tarefa é concluída */
+.completed {
+    border-left-color: #bdc3c7;
+    opacity: 0.6;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
+
+/* Botão de excluir mais elegante */
+.delete-btn {
+    background-color: #ff7675;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #d63031;
+}
+
+
+/* --- MEDIA QUERIES --- */
+
+/* Para celulares pequenos (iPhone SE, etc) */
+@media (max-width: 400px) {
+    .container-principal {
+        padding: 20px; /* Menos espaço interno para sobrar mais para o conteúdo */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Título um pouco menor */
+    }
+
+    .input-group {
+        background: transparent; /* Remove o fundo cinza do grupo */
+        padding: 0;
+        gap: 10px;
+    }
+
+    input {
+        background: #f0f0f0; /* Fundo cinza vai direto para o input */
+        border-radius: 10px;
+        width: 100%;
+        flex: none; /* Desativa o crescimento flexível para forçar a quebra */
+    }
+
+    button#addBtn {
+        width: 100%; /* Botão ocupa a largura toda embaixo do input */
+        padding: 15px;
+    }
+}
+
+/* Para telas muito curtas (celular deitado) */
+@media (max-height: 500px) {
+    body {
+        align-items: flex-start; /* Alinha no topo para não cortar o conteúdo */
+        padding-top: 20px;
+    }
+}
