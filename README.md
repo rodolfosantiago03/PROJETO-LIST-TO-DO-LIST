@@ -1,35 +1,36 @@
-Lista de Tarefas
+# Lista de Tarefas | JavaScript
 
-Aplicação de lista de tarefas com foco em organização de código e interações do usuário.
-
-🔍 Visão geral
-
-Projeto desenvolvido para treinar manipulação do DOM e boas práticas em JavaScript.
-
-🛠️ Tecnologias
-
-HTML
-
-CSS
-
-JavaScript
-
-🚀 Deploy
-
-🔗 https://rodolfosantiago03.github.io/PROJETO-LIST-TO-DO-LIST/
-
-📸 Preview
-
+## Preview
 ![Preview](assets/profilegit.png)
 
-⚙️ Funcionalidades
+## 📝 Descrição
+Aplicação de lista de tarefas desenvolvida em JavaScript puro, com foco em organização de código, manipulação do DOM e boa experiência do usuário.
 
-Adicionar tarefas
+## ⚙️ Funcionalidades
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Interface responsiva
 
-Marcar tarefas como concluídas
+## 🛠️ Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-Remover tarefas
+## 📚 Aprendizados
+- Manipulação do DOM com JavaScript
+- Organização de código em funções
+- Uso de eventos e estados da aplicação
+- Boas práticas de HTML semântico
 
-📌 Status
+## ▶️ Como executar o projeto
+1. Clone o repositório
+2. Abra o arquivo `index.html` no navegador
 
-✅ Projeto finalizado
+## 🔗 Deploy
+Acesse o projeto em funcionamento:  
+https://rodolfosantiago03.github.io/PROJETO-LIST-TO-DO-LIST/
+
+## 🚀 Status do Projeto
+✅ Concluído — aberto para melhorias futuras
+
