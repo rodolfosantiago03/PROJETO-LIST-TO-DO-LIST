@@ -23,10 +23,6 @@ Aplicação de lista de tarefas desenvolvida em JavaScript puro, com foco em org
 - Uso de eventos e estados da aplicação
 - Boas práticas de HTML semântico
 
-## ▶️ Como executar o projeto
-1. Clone o repositório
-2. Abra o arquivo `index.html` no navegador
-
 ## 🔗 Deploy
 Acesse o projeto em funcionamento:  
 https://rodolfosantiago03.github.io/PROJETO-LIST-TO-DO-LIST/
